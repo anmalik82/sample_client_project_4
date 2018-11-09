@@ -30,6 +30,9 @@ body, html {
     #who img {
         margin-top:15%;
     }
+    #footer {
+        text-align: center;
+    }
 }
 
 
@@ -175,6 +178,7 @@ body, html {
 
 #customers {
     padding: 5rem 0;
+    overflow: hidden;
 }
 
 #customers .carousel-indicators li {
@@ -220,6 +224,22 @@ body, html {
 
 #contact {
     padding: 5rem 0;
+}
+
+/*footer*/
+
+#footer {
+    padding: 2rem 0;
+    background-color: #484848;
+    color: #fff;
+}
+
+#footer a {
+    color:#fff;
+}
+
+#footer .fa {
+    padding:0 5px;
 }
 
 
